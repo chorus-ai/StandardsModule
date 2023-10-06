@@ -6,7 +6,18 @@
 This framework provides contributing sites an easy way to report progress in standardizing their data contributions to Bridge2AI.
 
 This framework provides a **workspace** where sites can manually track their progress, keep notes, and reach out to the Standards Module (SM) for assistance. It also equips the SM with tools for overseeing the progress and challenges of multiple sites at once. 
-  
+
+### Quickstart Guide
+The repository supports multiple use cases:
+
+1. Identifying or updating granular details about a site's progress on various elements/milestones of the Bridge2AI data harmonization and delivery process
+    - Head over to the [issues page](https://github.com/chorus-ai/StandardsModule/issues) and filter by the site you're interested in to find or make updates
+2. Viewing the overall progress of the consortium with regard to data harmonization and delivery
+    - Head over to the [project page](https://github.com/orgs/chorus-ai/projects/11) and select a relevant view to see how sites are progressing
+3. Posing questions, searching for answers, or responding to outstanding issues related to StandardsModule topics
+    - Check out the [discussions page](https://github.com/chorus-ai/StandardsModule/discussions) for active discussion and collaboration
+    - **Please note that any discussion of EPIC-specific content should directed to [EPIC's user web](https://galaxy.epic.com/)**
+
 ### Overview
 This framework solves three problems for the SM and the Bridge2AI contributing sites:
 1) **Major milestones**: SM seeks to provide sites with a list of major milestones involved in the ETL development, use of OHDSI tools, and concept mapping necessary to standardize data for contribution to CHoRUS Bridge2AI.
@@ -22,7 +33,7 @@ To address these challenges, the SM introduces the following solutions:
 
 ### Site Instructions
 This framework uses a progress tracking system categorized into two main categories, each containing issues attached to each site's name:
-1) **Milestone issues** (**Complete ETL**, **Results Sharing**, **Flowsheets**): these issues come with high-level checklists for general steps involved with the Bridge2AI data standardization process. Each issue is connected to a single milestone with a due date and a progress percentage display.
+1) **Milestone issues** (**Complete ETL**, **Results Sharing**, **Flowsheets**, **Imaging and Waveform**): these issues come with high-level checklists for general steps involved with the Bridge2AI data standardization process. Each issue is connected to a single milestone with a due date and a progress percentage display.
 2) **Progress Tracker issue**: this single issue serves as the central hub for tracking a site's progress:
     * Serves as a landing page for each site.
     * Includes a site profile, links to the GitHub Discussions page, and lists the three milestone issues.
