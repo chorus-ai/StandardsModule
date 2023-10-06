@@ -16,7 +16,7 @@ The repository supports multiple use cases:
     - Head over to the [project page](https://github.com/orgs/chorus-ai/projects/11) and select a relevant view to see how sites are progressing
 3. Posing questions, searching for answers, or responding to outstanding issues related to StandardsModule topics
     - Check out the [discussions page](https://github.com/chorus-ai/StandardsModule/discussions) for active discussion and collaboration
-    - **Please note that any discussion of EPIC-specific content should directed to [EPIC's user web](https://galaxy.epic.com/)**
+    - **Please note that any discussion of EPIC-specific content should be directed to [EPIC's user web](https://galaxy.epic.com/)**
 
 ### Overview
 This framework solves three problems for the SM and the Bridge2AI contributing sites:
