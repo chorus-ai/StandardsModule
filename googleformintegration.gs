@@ -211,13 +211,35 @@ function yesnocheckbox(txtbase, txtsub) {
 }
 
 function convertdate(dateinput) {
+  if (dateinput.length > 1){
+    var datearray = dateinput.split("/")
+    var year = datearray[2]
+    var month = datearray[0]
+    if (month.length == 1){
+      month = "0" + month
+    }
+    var day = datearray[1]
+    if (day.length == 1){
+      day = "0" + day
+    }
+    var dateoutput = year + "-" + month + "-" + day
+  } else {
+    var dateoutput = "NA"
+  }
+  return dateoutput
+}
+
+function convertdatetime(dateinput) {
   var datearray = dateinput.split("/")
-  var year = datearray[2]
+  var year = datearray[2].split(' ')[0]
   var month = datearray[0]
   if (month.length == 1){
     month = "0" + month
   }
   var day = datearray[1]
+  if (day.length == 1){
+    day = "0" + day
+  }
   var dateoutput = year + "-" + month + "-" + day
   return dateoutput
 }
